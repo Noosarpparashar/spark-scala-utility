@@ -6,6 +6,9 @@ import org.apache.spark.sql.Encoders
 import org.apache.spark.sql.functions.{col, from_json, json_tuple}
 import org.apache.spark.sql.types.{IntegerType, StructField, StructType}
 
+import java.util.Properties
+
+
 object ReadWriteToFromS3 extends App{
   val conf = new SparkConf()
     .setAppName("SparkKafkaStreaming")
@@ -21,10 +24,10 @@ object ReadWriteToFromS3 extends App{
     .getOrCreate()
   spark.sparkContext.setLogLevel("ERROR")
   spark.sparkContext
-    .hadoopConfiguration.set("fs.s3a.access.key", "AKIA5CMB477HEL66S2UD")
+    .hadoopConfiguration.set("fs.s3a.access.key", "AKIA5CMB477HF3Q5D63C")
   // Replace Key with your AWS secret key (You can find this on IAM
   spark.sparkContext
-    .hadoopConfiguration.set("fs.s3a.secret.key", "MsNt0BTvhl5GCD+JeGfmbPbmNq5kvqUXaamE8fGG")
+    .hadoopConfiguration.set("fs.s3a.secret.key", "GhOV+gHGg7jwEg1jl0ioHhV3ijBlGvDmTFGdzRhB")
   spark.sparkContext
     .hadoopConfiguration.set("fs.s3a.endpoint", "s3.amazonaws.com")
 
@@ -53,4 +56,20 @@ object ReadWriteToFromS3 extends App{
 //
 //
 //
+
+  val pgConnectionProperties = new Properties()
+  pgConnectionProperties.put("user","postgres")
+  pgConnectionProperties.put("password","9473249664")
+
+  val pgTable = "public.singlecolumn1"
+  val jdbcUrl = "jdbc:postgresql://database-1.c6vrj3gbkajn.us-east-1.rds.amazonaws.com:5432/postgres"
+ // val pgCourseDataframe = spark.read.jdbc("jdbc:postgresql://database-1.c6vrj3gbkajn.us-east-1.rds.amazonaws.com:5432/postgres", pgTable,pgConnectionProperties)
+  df1.write.format("jdbc")
+  .mode("overwrite")
+  .option("url", jdbcUrl)
+  .option("dbtable", pgTable)
+  .option("user", "postgres")
+  .option("password", "9473249664")
+  .save()
+
 }

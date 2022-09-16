@@ -178,7 +178,7 @@
     <orderEntry type="library" name="sbt: org.apache.yetus:audience-annotations:0.12.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper-jute:3.6.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper:3.6.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.checkerframework:checker-qual:2.5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.checkerframework:checker-qual:3.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-core-asl:1.9.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-jaxrs:1.9.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-mapper-asl:1.9.2:jar" level="project" />
@@ -224,6 +224,7 @@
     <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.7.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.objenesis:objenesis:2.5.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.ow2.asm:asm:8.0.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.postgresql:postgresql:42.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:RoaringBitmap:0.9.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:shims:0.9.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.rocksdb:rocksdbjni:6.20.3:jar" level="project" />
