@@ -22,10 +22,18 @@ object ReadParquet extends App{
 
   import spark.implicits._
   import org.apache.spark.sql.functions._
-//  val parquetFileDF = spark.read.parquet("/home/prasoon/Downloads/Archive/CTMP_EP01_TX_BRAND")
+  val componentDF = spark.read.parquet("/home/prasoon/Downloads/dsw1/dsw/component").limit(800000)
+    .withColumnRenamed("CTRYCODE","COUNTRY_CODE")
+    .withColumn("QUOTE_ID",trim(col("QUOTE_ID")))
+    .withColumn("COUNTRY_CODE",trim(col("COUNTRY_CODE")))
+  //componentDF.filter(col("QUOTE_ID").isin("4150292", "4160672", "4203447" ,"4302343", "4302360")).show()
+  componentDF.filter(col("QUOTE_ID").isin("4181382")).show()
+ // componentDF.show()
+
+//  val parquetFileDF = spark.read.parquet("/home/prasoon/Downloads/EPRICER_HEADER_FACT/EPRICER_HEADER_FACT/transform.parquet")
 //  parquetFileDF.show()
 //  println(parquetFileDF.schema)
- // parquetFileDF.select(parquetFileDF("FLAG3")).distinct.show()
+//  parquetFileDF.select(parquetFileDF("FLAG3")).distinct.show()
 // val dfWithLength= parquetFileDF.withColumn("col_length",length($"LASTUPDUSERTYPE")).cache()
 //
 //  val Row(maxValue: Int) = dfWithLength.agg(max("col_length")).head()
@@ -35,8 +43,8 @@ object ReadParquet extends App{
 //
 //  //CheckUNique
 //  println(parquetFileDF.select("CTMPPGRID").distinct().count() == parquetFileDF.count())
+////
 //
-
-val df = spark.read.csv("/home/prasoon/Downloads/")
+//val df = spark.read.csv("/home/prasoon/Downloads/")
 
 }
