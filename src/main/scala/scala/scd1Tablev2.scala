@@ -186,7 +186,7 @@ object scd1Tablev2 extends App{
         val pgTable = "public.testcode"
         val jdbcUrl = "jdbc:postgresql://localhost:5432/postgres"
         println(df1.printSchema())
-       // df1.show()
+        df1.show()
 
 
         df1.write.format("jdbc")
