@@ -5,55 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fc747b-5b0f-4b8d-befd-f6a8a1c9a05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Createdf.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/DatawarehouseSCD2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/SCD1usingTable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Ssw.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ahw.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/asw.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/dhw.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/dsw.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/shw.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ssw1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ssw1validate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/validateiwssw.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/scd1Tablev2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21e6fb479d20c9d5aa6f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21e6fb479d20c9d5aa6f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21e6fb479d20c9d5aa6f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f3fc73ece6cc0d5955f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f3fc73ece6cc0d5955f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f3fc73ece6cc0d5955f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$59f9711df1cabed210f7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$59f9711df1cabed210f7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$59f9711df1cabed210f7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7570b2047fc75daf6bb0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7570b2047fc75daf6bb0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7570b2047fc75daf6bb0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b05699b36e76c908dc9a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b05699b36e76c908dc9a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b05699b36e76c908dc9a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec2411a9dd3317eb32f2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec2411a9dd3317eb32f2.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec2411a9dd3317eb32f2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/ReadParquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/ReadParquet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/ReadParquet$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/ReadParquet$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/ReadParquet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/ReadParquet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +73,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala" />
     <property name="settings.editor.selected.configurable" value="ZeppelinConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.ssw1validate">
+  <component name="RunManager" selected="Application.scd1Tablev2">
     <configuration name="ReadParquet" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.ReadParquet" />
       <module name="scala-Practice" />
@@ -134,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shw" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.shw" />
+    <configuration name="scd1Tablev2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.scd1Tablev2" />
       <module name="scala-Practice" />
       <extension name="coverage">
         <pattern>
@@ -200,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.shw" />
       <item itemvalue="Application.ssw1" />
       <item itemvalue="Application.validateiwssw" />
       <item itemvalue="Application.ReadParquet" />
       <item itemvalue="Application.ssw1validate" />
+      <item itemvalue="Application.scd1Tablev2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.scd1Tablev2" />
         <item itemvalue="Application.ssw1validate" />
         <item itemvalue="Application.ReadParquet" />
         <item itemvalue="Application.ssw1" />
         <item itemvalue="Application.validateiwssw" />
-        <item itemvalue="Application.shw" />
       </list>
     </recent_temporary>
   </component>
@@ -1301,6 +1254,11 @@
           <url>file://$PROJECT_DIR$/src/main/scala/scala/ssw1.scala</url>
           <line>82</line>
           <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/scd1Tablev2.scala</url>
+          <line>67</line>
+          <option name="timeStamp" value="333" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
