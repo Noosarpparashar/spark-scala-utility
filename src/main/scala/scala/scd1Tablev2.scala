@@ -157,7 +157,7 @@ object scd1Tablev2 extends App{
 
 
       } finally {
-        conn.close()
+        //conn.close()
       }
 
     }
