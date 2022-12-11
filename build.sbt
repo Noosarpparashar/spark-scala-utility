@@ -17,7 +17,8 @@ val dependencies = Seq(
   "org.apache.hadoop" % "hadoop-common" % "3.3.1",
     // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client
  "org.apache.hadoop" % "hadoop-client" % "3.3.1" % "provided",
-  "org.postgresql" % "postgresql" % "42.5.0"
+  "org.postgresql" % "postgresql" % "42.5.0",
+  "com.typesafe" % "config" % "1.4.2"
 
 
 

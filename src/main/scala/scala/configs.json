@@ -1,0 +1,40 @@
+{
+    "scd1": [
+        {
+            "projectNAme": "from-db-schema-table",
+            "source": {
+                "s3path": "",
+                "awsaccesskey": "",
+                "awssecretkey": ""
+
+            },
+            "target": {
+                "jdbc_url":    "jdbc:postgresql://localhost:5432/postgres",
+                "auditTable":  "public.AuditReadWrite",
+                "loadTable":   "public.testcode",
+                "dbUser":      "debezium",
+                "dbpassword":  "9473249664"
+            }
+
+
+
+        },
+        {
+            "projectNAme": "from-db-schema-table2",
+            "source": {
+
+            },
+            "target": {
+                "jdbc_url":    "jdbc:postgresql://localhost:5432/postgres",
+                "auditTable":  "public.AuditReadWrite",
+                "loadTable":   "public.testcode",
+                "dbUser":      "debezium",
+                "dbpassword":  "9473249664"
+            }
+
+        }
+    ],
+    "scd2": [
+
+    ]
+}
