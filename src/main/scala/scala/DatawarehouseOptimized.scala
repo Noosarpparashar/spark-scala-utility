@@ -187,7 +187,7 @@ object DatawarehouseOptimized extends App {
     if (!deleteDF.take(1).isEmpty) {
       val intermediateDeleteDF = renameDF(deleteDF)
       val finalDF = updatedDF.join(intermediateDeleteDF, updatedDF(uniqueKey) === intermediateDeleteDF("emp_idu"), "leftouter")
-        .filter(col(uniqueKey).isNull)
+        .filter(col("emp_idu").isNull)
         .select(columnsToBeMigrated.map(m => col(m)): _*)
       writeData(finalDF)
       updatedDF.unpersist()
