@@ -70,7 +70,7 @@ object DatawarehouseOptimized extends App {
   def readcsv(filepath: Integer, isheader: String, isinferSchema: String): DataFrame = {
     val df = spark.read.format("csv").option("header", isheader)
       .option("inferSchema", isinferSchema)
-      .load("s3a://twitter-khyber/test-code/" + filepath + "/*.csv")
+      .load("/home/prasoon/its/datasets/" + filepath + "/*.csv")
     df
 
   }
@@ -167,10 +167,11 @@ object DatawarehouseOptimized extends App {
         .toDF(columnsToBeMigrated: _*)
       val tableafterinsertDF = tobeinsertedDF.union(dftable)
       commonupdate(lastfilereadDF, tableafterinsertDF)
-      updateAuditTable(lastfileRead, lastfileAdded, latestFileCount)
+
 
 
     }
+    updateAuditTable(lastfileRead, lastfileAdded, latestFileCount)
   }
 
   def commonupdate(lastfilereadDF: DataFrame, tableafterinsertDF: DataFrame): Unit = {
@@ -186,15 +187,20 @@ object DatawarehouseOptimized extends App {
     val deleteDF = getDeleteData(lastfilereadDF)
     if (!deleteDF.take(1).isEmpty) {
       val intermediateDeleteDF = renameDF(deleteDF)
+      println("Updated df")
+      updatedDF.show()
       val finalDF = updatedDF.join(intermediateDeleteDF, updatedDF(uniqueKey) === intermediateDeleteDF("emp_idu"), "leftouter")
         .filter(col("emp_idu").isNull)
         .select(columnsToBeMigrated.map(m => col(m)): _*)
+      println("final df")
+      finalDF.show()
       writeData(finalDF)
       updatedDF.unpersist()
 
     }
 
     else {
+      updatedDF.show()
       writeData(updatedDF)
     }
 

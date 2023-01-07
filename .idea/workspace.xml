@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fc747b-5b0f-4b8d-befd-f6a8a1c9a05c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/DataWarehouseOptimizedscd1Table.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +94,33 @@
       <recent name="$PROJECT_DIR$/src/main/scala/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadParquet">
+  <component name="RunManager" selected="Application.DataWarehouseOptimizedscd1Table">
+    <configuration name="DataWarehouseOptimizedscd1Table" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.DataWarehouseOptimizedscd1Table" />
+      <module name="scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatawarehouseOptimized" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.DatawarehouseOptimized" />
+      <module name="scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadParquet" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.ReadParquet" />
       <module name="scala-Practice" />
@@ -116,34 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scd1Tablev2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.scd1Tablev2" />
-      <module name="scala-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="scd2Tablev2" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.scd2Tablev2" />
-      <module name="scala-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ssw1validate" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.ssw1validate" />
       <module name="scala-Practice" />
       <extension name="coverage">
         <pattern>
@@ -170,18 +175,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReadParquet" />
-      <item itemvalue="Application.ssw1validate" />
-      <item itemvalue="Application.scd1Tablev2" />
       <item itemvalue="Application.scd2Tablev2" />
       <item itemvalue="Application.readjson" />
+      <item itemvalue="Application.DatawarehouseOptimized" />
+      <item itemvalue="Application.DataWarehouseOptimizedscd1Table" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataWarehouseOptimizedscd1Table" />
+        <item itemvalue="Application.DatawarehouseOptimized" />
         <item itemvalue="Application.ReadParquet" />
         <item itemvalue="Application.readjson" />
         <item itemvalue="Application.scd2Tablev2" />
-        <item itemvalue="Application.scd1Tablev2" />
-        <item itemvalue="Application.ssw1validate" />
       </list>
     </recent_temporary>
   </component>
@@ -1200,6 +1205,106 @@
           <url>file://$PROJECT_DIR$/src/main/scala/scala/scd2Tablev2.scala</url>
           <line>59</line>
           <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>69</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>77</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>83</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>89</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>94</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>99</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>108</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>116</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>129</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>141</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>147</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>156</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>157</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>148</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>176</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>178</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>208</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>209</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>228</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala</url>
+          <line>230</line>
+          <option name="timeStamp" value="371" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
