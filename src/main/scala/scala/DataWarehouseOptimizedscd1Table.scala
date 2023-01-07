@@ -146,7 +146,6 @@ object DataWarehouseOptimizedscd1Table extends App{
       val queryinsert = "INSERT INTO "+ loadTable+" (emp_id,ofc_location,updated_at ) " +
         "(SELECT dt.emp_id, dt.ofc_location,dt.updated_at from "+deltatable+" dt where op = 'I' or op = 'R' ) " +
         "ON CONFLICT (emp_id) DO NOTHING"
-
       writesql(queryinsert)
       println("done historical load and inserts")
       val queryupdate = "INSERT INTO "+loadTable+" (emp_id,ofc_location,updated_at )(SELECT sq.emp_id,sq.ofc_location,sq.updated_at  FROM " +
