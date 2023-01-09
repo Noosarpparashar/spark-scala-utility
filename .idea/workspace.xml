@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fc747b-5b0f-4b8d-befd-f6a8a1c9a05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/DataWarehouseOptimizedscd1Table.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/DataWarehouseOptimizedSCD2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/DatawarehouseOptimized.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DatawarehouseOptimized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DataWarehouseOptimizedscd1Table$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/scala/DataWarehouseOptimizedscd1Table$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,20 @@
       <recent name="$PROJECT_DIR$/src/main/scala/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataWarehouseOptimizedscd1Table">
+  <component name="RunManager" selected="Application.DataWarehouseOptimizedSCD2">
+    <configuration name="DataWarehouseOptimizedSCD2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.DataWarehouseOptimizedSCD2" />
+      <module name="scala-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataWarehouseOptimizedscd1Table" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.DataWarehouseOptimizedscd1Table" />
       <module name="scala-Practice" />
@@ -147,19 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scd2Tablev2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.scd2Tablev2" />
-      <module name="scala-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="kafka-scala" />
       <method v="2">
@@ -175,18 +172,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReadParquet" />
-      <item itemvalue="Application.scd2Tablev2" />
       <item itemvalue="Application.readjson" />
       <item itemvalue="Application.DatawarehouseOptimized" />
       <item itemvalue="Application.DataWarehouseOptimizedscd1Table" />
+      <item itemvalue="Application.DataWarehouseOptimizedSCD2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataWarehouseOptimizedSCD2" />
         <item itemvalue="Application.DataWarehouseOptimizedscd1Table" />
         <item itemvalue="Application.DatawarehouseOptimized" />
         <item itemvalue="Application.ReadParquet" />
         <item itemvalue="Application.readjson" />
-        <item itemvalue="Application.scd2Tablev2" />
       </list>
     </recent_temporary>
   </component>
